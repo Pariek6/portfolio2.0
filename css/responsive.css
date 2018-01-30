@@ -1,0 +1,468 @@
+/*   TABLET   */
+
+@media screen and (max-width: 1024px) {
+
+  header {
+    display: none;
+  }
+
+  .closebtn {
+    font-size: 100px;
+  }
+
+  #mySidenav {
+    display: block;
+
+  }
+
+  #sidebarOpen {
+    display: block;
+    position: fixed;
+    z-index:11;
+    margin-left:.3em;
+    font-size:100px;
+    cursor:pointer;
+    color: rgb(0, 251, 204);
+    transition: 1s ease-in;
+  }
+
+
+  #sidebarOpen.scrolled {
+color: black !important;
+transition: .4s ease-in;
+}
+
+
+  .sidenav {
+      height: 100%;
+      width: 0;
+      position: fixed;
+      z-index: 1;
+      top: 0;
+      left: 0;
+      background-color: #111;
+      overflow-x: hidden;
+      transition: 0.5s;
+      padding-top: 60px;
+  }
+
+  .sidenav a {
+      padding: 8px 8px 8px 32px;
+      text-decoration: none;
+      font-size: 50px;
+      color: #818181;
+      display: block;
+      transition: 0.3s;
+  }
+
+  .sidenav a:hover {
+      color:  rgb(0, 251, 204);
+  }
+
+  .sidenav .closebtn {
+      color:  rgb(0, 251, 204);
+      position: absolute;
+      top: 0;
+      right: 25px;
+      font-size: 100px;
+      margin-left: 50px;
+  }
+
+
+  .top__text {
+      font-size: 35px;
+  }
+
+
+  /*  ABOUT  */
+
+
+  #about {
+    height: 100%;
+  }
+
+  #about h1 {
+    padding: 1.2em;
+    font-size: 40px;
+  }
+
+      .about__text {
+        font-size: 28px;
+        text-align: left;
+        width: 70%;
+        margin-left: 16%;
+    }
+
+    .about__text2 {
+      font-size: 25px;
+      width: 100%;
+      padding-bottom: 6em;
+    }
+
+    hr {
+      width: 100%;
+    }
+
+
+      /*  WORK  */
+
+
+    #work {
+      height: 100%;
+    }
+
+    #work h1 {
+      padding: 1.2em;
+      font-size: 40px;
+    }
+
+    .projecten {
+      width: 320px;
+      height: 280px;
+      margin-left: 10px;
+    }
+
+    .work__image {
+      width: 100%;
+      height: 100%;
+    }
+
+    .projecten:nth-child(4) {
+      width: 320px;
+      height: 280px;
+    }
+
+    .projecten:hover {
+      border: 5px solid rgb(0, 251, 204);
+      box-sizing: border-box;
+    }
+
+    .work__container {
+      text-align: center;
+      margin-left: 0;
+    }
+
+    .work__container2 {
+      text-align: center;
+      padding-bottom: 6em;
+    }
+
+    .inner:before {
+
+      }
+
+      .inner:after {
+
+      }
+
+    .inner:before, .inner:after {
+      width: 70px;
+      left: 0%;
+    }
+
+    .modal {
+      padding-top: 75px;
+    }
+
+    .modal-content {
+      width: 80%;
+      height: 80%;
+      padding: 30px;
+
+    }
+
+    .modal__header > p {
+    font-size: 50px;
+    line-height: 250%;
+}
+
+    .project__text hr {
+      width: 80%;
+    }
+
+
+  .modal__header {
+    text-align: center;
+  }
+
+.project__text p {
+    margin-left: 0.5em;
+    height: 45%;
+}
+
+.project__text {
+  font-size: 23px;
+  height: 75%;
+}
+
+  /*  CONTACT  */
+
+.fa-facebook {
+  width: 28px;
+  padding: 25px;
+  margin-left: 1em;
+}
+
+.fa-twitter {
+  width: 28px;
+  padding: 25px;
+    margin-left: .5em;
+}
+
+.fa-google-plus {
+  width: 28px;
+  padding: 25px;
+  margin-left: .5em;
+}
+
+.fa-google-plus {
+  width: 28px;
+  padding: 25px;
+  margin-left: .5em;
+}
+
+.fa-linkedin {
+  width: 28px;
+  padding: 25px;
+
+  text-align: center;
+}
+
+.fa-github {
+  width: 28px;
+  padding: 25px;
+
+  text-align: center;
+}
+
+}
+
+/*   MOBILE   */
+@media screen and (max-width: 550px) {
+
+    /*  header BAR  */
+
+    header {
+      display: none;
+    }
+
+    .sidenav a {
+        font-size: 25px;
+    }
+
+    .sidenav .closebtn {
+        font-size: 50px;
+        right: 10px;
+    }
+
+    #mySidenav {
+      display: block;
+    }
+
+    #sidebarOpen {
+      display: block;
+      position: fixed;
+      z-index:11;
+      margin-left:.3em;
+      font-size:30px;
+      cursor:pointer;
+      color: rgb(0, 251, 204);
+      transition: 1s ease-in;
+    }
+
+    #sidebarOpen.scrolled {
+      color: black !important;
+      transition: .4s ease-in;
+    }
+
+
+
+
+    .top__text {
+        font-size: 20px;
+    }
+
+    /*  ABOUT  */
+
+    #about {
+      height: 100%;
+    }
+
+    #about h1 {
+      padding: 1em;
+      font-size: 30px;
+    }
+
+    .about__avatar img {
+      margin-top: -10%;
+      text-align: center;
+    }
+
+    .about__text {
+      width: 100%;
+      font-size: 17px;
+      text-align: left;
+  }
+
+    .about__text2 {
+      font-size: 15px;
+      width: 100%;
+      padding-bottom: 2em;
+    }
+
+
+
+    /*  WORK  */
+
+    #work {
+      height: 100%;
+    }
+
+    #work h1 {
+      padding: 1em;
+      font-size: 30px;
+    }
+
+    .projecten {
+      width: 150px;
+      height: 150px;
+      margin-left: 10px;
+
+    }
+
+    .work__image {
+      width: 100%;
+      height: 100%;
+    }
+
+    .projecten:nth-child(4) {
+      width: 150px;
+      height: 150px;
+    }
+
+    .projecten:hover {
+      border: 3px solid rgb(0, 251, 204);
+      box-sizing: border-box;
+    }
+
+    .work__container {
+      text-align: center;
+      margin-left: 0;
+    }
+
+    .work__container2 {
+      text-align: center;
+      padding-bottom: 2em;
+    }
+
+
+.inner:before {
+    top: 0%;
+  }
+
+  .inner:after {
+    bottom: 90%;
+  }
+
+.inner:before, .inner:after {
+  width: 40px;
+  left: 50%;
+}
+
+
+    .modal {
+      padding-top: 50px;
+    }
+
+    .modal-content {
+      width: 70%;
+      height: 80%;
+      padding: 30px 30px 0px 30px;
+    }
+
+    .modal__header > p {
+    font-size: 20px;
+    line-height: 350%;
+}
+  .modal__header {
+    text-align: center;
+    -webkit-margin-before: 0em;
+    -webkit-margin-after: 0em;
+  }
+
+.project__text p {
+    margin-left: 0.5em;
+    height: 55%;
+}
+
+.project__text {
+  font-size: 13px;
+  height: 75%;
+}
+
+#myModal-7 .modal__header p {
+    font-size: 19px;
+
+}
+
+@media screen and (max-width: 360px) {
+  .project__text {
+    font-size: 12px;
+  }
+}
+
+    /*  CONTACT  */
+
+    #contact {
+      padding-bottom: 2em;
+    }
+
+    #contact h1 {
+      padding: 1em;
+      font-size: 30px;
+    }
+
+    .contact__block1 {
+      font-size: 14px;
+      width: 49.5%;
+      height: 80vh;
+    }
+
+    .fa-facebook {
+      width: 18px;
+      padding: 15px;
+      margin-left: 1em;
+    }
+
+    .fa-twitter {
+      width: 18px;
+      padding: 15px;
+        margin-left: .2em;
+    }
+
+    .fa-google-plus {
+      width: 18px;
+      padding: 15px;
+      margin-left: .2em;
+    }
+
+    @media screen and (max-width: 360px) {
+      .fa-google-plus {
+        margin-left: 1em;
+        margin-top: 5px;
+      }
+    }
+
+    .fa-linkedin {
+      width: 18px;
+      padding: 18px;
+      text-align: center;
+    }
+
+    .fa-github {
+      width: 18px;
+      padding: 18px;
+      text-align: center;
+    }
+
+}
